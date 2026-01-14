@@ -34,12 +34,12 @@ Bạn cần tạo các file sau trong cùng thư mục với file script của b
 
 ### Bước 3: Lưu trữ cấu trúc thư mục
 Đảm bảo thư mục của bạn có các file sau:
-├── main.js             (Dán nội dung code chính của bạn vào đây)
-├── profilemanager.js   (Dán nội dung code profilemanager bạn đã cung cấp)
-├── privatekey.txt      (Chứa khóa bí mật)
-├── proxy.txt           (Chứa danh sách proxy)
-├── user.txt            (Chứa tên Discord)
-└── user_agents.txt     (Chứa danh sách User-Agent)
+main.js             (Dán nội dung code chính của bạn vào đây)
+profilemanager.js   (Dán nội dung code profilemanager bạn đã cung cấp)
+privatekey.txt      (Chứa khóa bí mật)
+proxy.txt           (Chứa danh sách proxy)
+user.txt            (Chứa tên Discord)
+user_agents.txt     (Chứa danh sách User-Agent)
 
 ### Bước 4: Chạy Tool
 1. Mở Terminal tại thư mục đó.
@@ -50,4 +50,4 @@ Bạn cần tạo các file sau trong cùng thư mục với file script của b
 ### LƯU Ý QUAN TRỌNG:
 - Thư viện Ethers: Script của bạn sử dụng cú pháp của phiên bản cũ, hãy cài đúng bản `ethers@5.7.2` để tránh lỗi.
 - File profilemanager.js: Phải được đặt đúng tên này vì script chính gọi `require("./profilemanager")`.
-- License: Bạn cần có Key hợp lệ từ Server "onrender.com" như trong code đã quy định.
+- License: Bạn cần có Key hợp lệ từ Server 
