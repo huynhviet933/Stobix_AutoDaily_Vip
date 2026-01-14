@@ -33,12 +33,19 @@ Bạn cần tạo các file sau trong cùng thư mục với file script của b
    - Nội dung: Mỗi dòng 1 chuỗi User-Agent trình duyệt (Có thể copy từ Chrome hoặc tìm trên mạng).
 
 ### Bước 3: Lưu trữ cấu trúc thư mục
+
 Đảm bảo thư mục của bạn có các file sau:
+
 main.js             (Dán nội dung code chính của bạn vào đây)
+
 profilemanager.js   (Dán nội dung code profilemanager bạn đã cung cấp)
+
 privatekey.txt      (Chứa khóa bí mật)
+
 proxy.txt           (Chứa danh sách proxy)
+
 user.txt            (Chứa tên Discord)
+
 user_agents.txt     (Chứa danh sách User-Agent)
 
 ### Bước 4: Chạy Tool
